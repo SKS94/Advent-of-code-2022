@@ -1,7 +1,7 @@
 import numpy as np
 
 ### First puzzle ###
-data = np.loadtxt("advent_of_code_dec_02.txt", dtype=str)
+data = np.loadtxt("data/advent_of_code_dec_02.txt", dtype=str)
 
 # Number representation of the possible moves
 number_rep = {'A': 1, 'X': 1, 'B': 2, 'Y': 2, 'C': 3, 'Z': 3}

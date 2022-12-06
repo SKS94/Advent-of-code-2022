@@ -2,7 +2,7 @@ import numpy as np
 
 ### First puzzle ###
 max_calorie_elf, temp_calorie_count = 0, 0
-f = open("advent_of_code_dec_01.txt")
+f = open("data/advent_of_code_dec_01.txt")
 for line in f:
     if line != "\n":
         temp_calorie_count += int(line)
@@ -15,7 +15,7 @@ print(f"The maximum calories carried by one elf is: {max_calorie_elf}")
 
 ### Second puzzle ###
 max_calorie_elf, temp_calorie_count = [0, 0, 0], 0
-f = open("advent_of_code_dec_01.txt")
+f = open("data/advent_of_code_dec_01.txt")
 for line in f:
     if line != "\n":
         temp_calorie_count += int(line)

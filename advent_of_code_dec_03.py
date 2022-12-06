@@ -18,7 +18,7 @@ def shift_ASCII_val(letter_list):
 import numpy as np
 
 ### First puzzle ###
-data = np.loadtxt("advent_of_code_dec_03.txt", dtype=str)
+data = np.loadtxt("data/advent_of_code_dec_03.txt", dtype=str)
 
 acummalative_score = 0
 for rucksacks in data:
