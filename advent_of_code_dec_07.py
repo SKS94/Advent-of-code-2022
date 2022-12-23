@@ -32,8 +32,6 @@ def _if_cd_in_line(current_folder_list):
         current_folder_list.pop(-1)
     return current_folder_list
 
-
-
 with open("data/advent_of_code_dec_07.txt", 'r') as f:
     raw_data = f.read().splitlines()
 
